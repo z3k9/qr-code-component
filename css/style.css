@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 62.5%;
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:4rem;
+    
+}
+.card{
+    background-color: #fff;
+    padding: 1rem;
+    width: 20rem;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: 'Outfit', sans-serif;
+}
+.card__image{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.card__text{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.card__heading{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+p{
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
